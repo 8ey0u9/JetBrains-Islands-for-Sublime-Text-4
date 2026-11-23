@@ -1,0 +1,6 @@
+{%- if var.is_popup and 'JetBrains Islands Dark' in var.color_scheme %}
+{{ 'Packages/JetBrains Islands/styles/popup-dark.css' | getcss }}
+{%- elif var.is_popup and 'JetBrains Islands Light' in var.color_scheme %}
+{{ 'Packages/JetBrains Islands/styles/popup-light.css' | getcss }}
+{%- endif %}
+{{ 'Packages/User/mdpopups.css' | getcss }}

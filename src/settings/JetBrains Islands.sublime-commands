@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "JetBrains Islands: 设置说明（中文）",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/JetBrains Islands/settings/JetBrains Islands Dark.sublime-settings",
+            "user_file": "${packages}/User/Preferences.sublime-settings"
+        }
+    }
+]

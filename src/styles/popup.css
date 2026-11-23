@@ -1,0 +1,203 @@
+/*
+ * Islands minihtml. This styles existing content; LSP/mdpopups continue to
+ * generate documentation, capability-dependent actions and navigation URLs.
+ * @@tokens@@ are substituted by scripts/lib/schemes.py at build time.
+ */
+html, html.dark, html.light {
+    --islands-surface: @@popup_bg@@;
+    --islands-text: @@popup_fg@@;
+    --islands-muted: @@popup_muted@@;
+    --islands-link: @@popup_link@@;
+    --islands-rule: @@popup_rule@@;
+    --islands-code: @@popup_code_bg@@;
+    --islands-inline: @@popup_inline_bg@@;
+    --mdpopups-bg: var(--islands-surface);
+    --mdpopups-fg: var(--islands-text);
+    --mdpopups-link: var(--islands-link);
+    --mdpopups-hr: var(--islands-rule);
+    --mdpopups-hl-bg: var(--islands-code);
+    --mdpopups-hl-border: var(--islands-rule);
+    --mdpopups-kbd-fg: var(--islands-muted);
+    --mdpopups-kbd-bg: transparent;
+    --mdpopups-kbd-border: var(--islands-rule);
+    background-color: var(--islands-surface);
+    color: var(--islands-text);
+}
+
+html body, html .mdpopups, html .mdpopups .lsp_popup {
+    font-family: system;
+    background-color: var(--islands-surface);
+    color: var(--islands-text);
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 0;
+    padding: 0;
+}
+
+html p, html .mdpopups p {
+    margin: 0 0 0.5rem 0;
+}
+html h1, html .mdpopups h1 {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+}
+html h2, html .mdpopups h2 {
+    font-size: 1.05rem;
+    line-height: 1.4rem;
+}
+html h3, html h4, html h5, html h6,
+html .mdpopups h3, html .mdpopups h4, html .mdpopups h5, html .mdpopups h6 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+html h1, html h2, html h3, html h4, html h5, html h6 {
+    color: var(--islands-text);
+    font-weight: bold;
+    margin: 0.5rem 0 0.35rem 0;
+}
+html a, html .mdpopups a {
+    color: var(--islands-link);
+    text-decoration: none;
+}
+
+/* Both fenced Markdown and LSP's signature renderer are supported. Keep the
+ * syntax-coloured spans produced by the provider; do not recolour descendants.
+ * mdpopups emits some fenced blocks as div.highlight rather than pre. */
+html pre, html .mdpopups pre,
+html .mdpopups div.highlight, html .mdpopups pre.highlight {
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    white-space: pre-wrap;
+    background-color: var(--islands-code);
+    border: 1px solid var(--islands-rule);
+    border-radius: 0.25rem;
+    padding: 0.4rem 0.6rem;
+    margin: 0 0 0.5rem 0;
+}
+html code, html var, html tt,
+html .mdpopups code, html .mdpopups var, html .mdpopups tt {
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: var(--islands-inline);
+    border-radius: 0.15rem;
+    padding: 0 0.15rem;
+}
+html pre code, html .mdpopups pre code,
+html .mdpopups .highlight code,
+html .mdpopups .highlight var, html .mdpopups .highlight tt {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+html .mdpopups .highlight pre {
+    background-color: transparent;
+    border-style: none;
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+}
+html ul, html ol, html .mdpopups ul, html .mdpopups ol {
+    margin: 0 0 0.5rem 0;
+    padding-left: 1.5rem;
+}
+html li, html .mdpopups li {
+    margin-bottom: 0.15rem;
+}
+html dl, html .mdpopups dl {
+    margin: 0 0 0.5rem 0;
+}
+html dt, html .mdpopups dt {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+html dd, html .mdpopups dd {
+    margin: 0 0 0.4rem 1rem;
+}
+html blockquote, html .mdpopups blockquote {
+    color: var(--islands-muted);
+    border-left: 2px solid var(--islands-rule);
+    padding: 0.2rem 0.6rem;
+    margin: 0 0 0.5rem 0;
+}
+html hr, html .mdpopups hr {
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: var(--islands-rule);
+    margin: 0.5rem 0;
+}
+html kbd, html .mdpopups kbd {
+    color: var(--islands-muted);
+    background-color: transparent;
+    border: 1px solid var(--islands-rule);
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    padding: 0.05rem 0.25rem;
+}
+
+/* LSP supplies wrappers and a spacer to work around minihtml margin collapse.
+ * Preserve that spacer, async updates, and the original callback-bearing links. */
+html .mdpopups .lsp_popup .wrapper {
+    padding: 0.5rem 0.6rem 0 0.6rem;
+}
+html .mdpopups .lsp_popup .wrapper--spacer {
+    margin-top: 0.5rem;
+}
+html .mdpopups .lsp_popup .m-0 {
+    margin: 0;
+}
+html .mdpopups .lsp_popup .color-muted,
+html .mdpopups .lsp_popup .signature-help-intro {
+    color: var(--islands-muted);
+}
+html .mdpopups .lsp_popup .signature-help-intro {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+/* Action strip: show only the links actually emitted by the provider.
+ * Inline blocks wrap as a group without splitting a label or replacing href. */
+html .mdpopups .lsp_popup .actions {
+    background-color: @@popup_footer_bg@@;
+    border-top: 1px solid var(--islands-rule);
+    color: var(--islands-muted);
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+html .mdpopups .lsp_popup .actions a {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0.1rem 0.25rem;
+    border-radius: 0.2rem;
+    text-decoration: none;
+}
+html .mdpopups .lsp_popup a.copy-icon {
+    color: var(--islands-muted);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+}
+
+/* JetBrains Islands feedback surfaces. Diagnostic text, source, related
+ * locations, lightbulbs and Quick Fix links remain owned by LSP. */
+html .mdpopups .lsp_popup .diagnostics .error {
+    background-color: @@popup_error_bg@@;
+    border-left: 2px solid @@popup_error_border@@;
+    color: var(--islands-text);
+}
+html .mdpopups .lsp_popup .diagnostics .warning {
+    background-color: @@popup_warning_bg@@;
+    border-left: 2px solid @@popup_warning_border@@;
+    color: var(--islands-text);
+}
+html .mdpopups .lsp_popup .diagnostics .information,
+html .mdpopups .lsp_popup .diagnostics .hint {
+    background-color: @@popup_info_bg@@;
+    border-left: 2px solid @@popup_info_border@@;
+    color: var(--islands-text);
+}
+html .mdpopups .lsp_popup .diagnostics code,
+html .mdpopups .lsp_popup .diagnostics code.highlight {
+    background-color: var(--islands-inline);
+    border-color: transparent;
+}

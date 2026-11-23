@@ -1,5 +1,0 @@
-[
-    { "caption": "JetBrains Islands: Switch to Dark", "command": "islands_switch_dark" },
-    { "caption": "JetBrains Islands: Switch to Light", "command": "islands_switch_light" },
-    { "caption": "JetBrains Islands: Follow System Appearance", "command": "islands_switch_auto" }
-]

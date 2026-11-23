@@ -1,0 +1,5 @@
+{
+    // 仅用于本主题的原生输入控件：统一输入文字、选区和提示文字。
+    // 字体与字号沿用用户设置，正则输入语法由 Sublime 原生控件加载。
+    "color_scheme": "Widget - JetBrains Islands Dark.hidden-color-scheme"
+}

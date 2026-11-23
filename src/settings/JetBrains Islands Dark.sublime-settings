@@ -1,0 +1,145 @@
+// JetBrains Islands：逐项中文设置说明。
+// 按需复制到 User/Preferences.sublime-settings；本模板不会自动加载。
+// 主题遵循纯静态规范，不修改用户的偏好设置；可按需复制推荐布局项。
+// 如已有自定义 mdpopups.user_css，请保留原值，不要复制该项。
+{
+    // 界面主题：控制标签、侧边栏、按钮和弹窗外壳；auto 为跟随系统。
+    // auto 需同时配对 light_theme / dark_theme。
+    "theme": "JetBrains Islands Dark.sublime-theme",
+
+    // 编辑区配色：控制语法、光标、选区以及原生 minihtml 内容。
+    // 语法专用设置、项目或视图设置可能覆盖全局值。
+    "color_scheme": "JetBrains Islands Dark.sublime-color-scheme",
+
+    // LSP/mdpopups 弹窗样式入口：适配签名、诊断和动作区。
+    // 依赖已安装的 mdpopups；显式自定义路径优先。模板最后合并 User/mdpopups.css。
+    "mdpopups.user_css": "Packages/JetBrains Islands/styles/mdpopups.css",
+
+    // 标签形状：rounded 为 Islands 圆角，square 为直角，angled 为原生旧式斜角。
+    // angled 使用 Sublime 默认几何，不承诺 Islands 外观。
+    "file_tab_style": "rounded",
+
+    // 请求主题化标题栏，使可主题化区域跟随当前配色。
+    // macOS 上验证；系统原生标题栏、窗口按钮由平台决定。
+    "themed_title_bar": true,
+
+    // 将未保存标签的文字显示为强调色；关闭后保留原生未保存圆点。
+    // 必须存在未保存文件；不依赖关闭按钮是否可见。
+    "highlight_modified_tabs": true,
+
+    // 侧边栏文件夹名称是否加粗；推荐 false，目录和文件均使用常规字重。
+    // 设为 true 可开启目录加粗。
+    "bold_folder_labels": false,
+
+    // 滚动条模式：enabled 浮动，disabled 占位，system 跟随系统。
+    // Sublime 将枚举转换为主题的浮动滚动条状态；system 由系统偏好决定。
+    "overlay_scroll_bars": "enabled",
+
+    // 绘制编辑区边缘阴影；false 保持 Islands 平整边界。
+    // 与 popup_shadows 不同；没有可将阴影改为细线的主题接口。
+    "draw_shadows": false,
+
+    // 显示状态栏中的侧边栏切换按钮。
+    // 状态栏隐藏时不可见；侧边栏菜单和快捷键始终有效。
+    "show_sidebar_button": false,
+
+    // 在状态栏显示文件编码，例如 UTF-8。
+    // 普通文本编辑视图与可见状态栏中生效。
+    "show_encoding": true,
+
+    // 在状态栏显示换行格式，例如 Unix / Windows。
+    // 普通文本编辑视图与可见状态栏中生效。
+    "show_line_endings": true,
+
+    // 在状态栏显示缩进方式与宽度，例如 Spaces: 4。
+    // 显示当前视图的有效缩进设置。
+    "show_indentation": true,
+
+    // 隐藏标签左右滚动箭头，以保持 Islands 紧凑布局。
+    // 仅影响按钮；滚轮和下拉列表仍可导航。
+    "hide_tab_scrolling_buttons": true,
+
+    // 隐藏标签栏新增按钮。
+    // 不影响新建文件菜单及快捷键。
+    "hide_new_tab_button": true,
+
+    // 把标签关闭按钮移到左侧；false 放在右侧。
+    // show_tab_close_buttons=true 时才看得见位置变化。
+    "show_tab_close_buttons_on_left": false,
+
+    // 系统浅色外观对应的界面主题。
+    // 仅 theme=auto 时自动选择；固定 Dark 时不参与当前显示。
+    "light_theme": "JetBrains Islands Light.sublime-theme",
+
+    // 系统浅色外观对应的编辑区配色。
+    // 仅 color_scheme=auto 时自动选择。
+    "light_color_scheme": "JetBrains Islands Light.sublime-color-scheme",
+
+    // 系统深色外观对应的界面主题。
+    // 仅 theme=auto 时自动选择；固定 Light 时不参与当前显示。
+    "dark_theme": "JetBrains Islands Dark.sublime-theme",
+
+    // 系统深色外观对应的编辑区配色。
+    // 仅 color_scheme=auto 时自动选择。
+    "dark_color_scheme": "JetBrains Islands Dark.sublime-color-scheme"
+
+    // 以下为可选设置示例，已注释；取消注释并保存后才会应用。
+    // 是否显示标签关闭按钮；未选中标签默认在鼠标经过时显示。
+    // false 隐藏按钮；不禁用关闭文件命令。
+    // "show_tab_close_buttons": true,
+
+    // 隐藏标签列表下拉按钮；false 保留 Sublime 原生导航入口。
+    // Islands 自定义主题开关，仅 Islands 主题读取。
+    // "islands_hide_tab_dropdown": false,
+
+    // 允许标签栏横向滚动，避免标签全部压缩。
+    // 需要标签总宽度超过可用空间。
+    // "enable_tab_scrolling": true,
+
+    // 用鼠标滚轮在标签间切换。
+    // 原生主题规则在 enable_tab_scrolling=false 时启用切换。
+    // "mouse_wheel_switches_tabs": false,
+
+    // 绘制原生弹窗外阴影。
+    // 由 Sublime 的 popup_shadow 与平台共同处理。
+    // "popup_shadows": true,
+
+    // 在行号旁显示原生代码折叠箭头；主题提供右向/下向图形。
+    // gutter=true 且语法或缩进识别出可折叠范围时显示。
+    // "fold_buttons": true,
+
+    // 折叠箭头仅在鼠标进入 gutter 时显示；false 常显。
+    // fold_buttons=true 时生效；由 Sublime 控制淡入淡出。
+    // "fade_fold_buttons": true,
+
+    // 折叠规则：auto 自动，force_indentation 按缩进，scope_only 仅按语法范围。
+    // 不由主题推断或重写折叠范围。
+    // "fold_style": "auto",
+
+    // 在迷你地图上持续显示当前可视区域；false 在鼠标经过时显示。
+    // 迷你地图需先通过“视图”菜单显示。
+    // "always_show_minimap_viewport": false,
+
+    // 在迷你地图的可视区域周围绘制边框。
+    // 不是编辑器与迷你地图之间的分隔线。
+    // "draw_minimap_border": false,
+
+    // 弱化没有输入焦点的编辑分组，并轻微调整失焦输入框底色。
+    // 需多分组/失焦控件；不改动语法文字颜色。
+    // "inactive_sheet_dimming": false,
+
+    // 状态栏行列号：enabled 完整，compact 紧凑，disabled 隐藏。
+    // disabled 是用户明确选择；主题不会改回 enabled。
+    // "show_line_column": "enabled",
+
+    // 在状态栏显示当前语法，并保留原生语法选择菜单。
+    // 普通文本视图中生效。
+    // "show_syntax": true,
+
+    // 附加文件图标主题；空数组使用与当前主题同名的图标映射。
+    // 空数组使用与当前主题同名的图标映射；可填入第三方图标主题。
+    // "file_icon_theme": [],
+
+    // show_minimap 不是公开偏好设置；请使用“视图 → 显示/隐藏迷你地图”。
+    // 原生窗口对话框、面包屑和标签内文件图标无法通过本主题添加。
+}

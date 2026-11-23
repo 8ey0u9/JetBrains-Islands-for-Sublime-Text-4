@@ -1,0 +1,41 @@
+This project includes file-type icon artwork from JetBrains IntelliJ Platform
+and language-plugin resources. Original work in this project is licensed under
+MIT. Third-party assets are outside that MIT grant.
+
+Upstream IntelliJ attribution, retained verbatim:
+
+This software includes code from IntelliJ IDEA
+Copyright (C) JetBrains s.r.o.
+https://www.jetbrains.com/idea/
+
+The upstream material included here is icon artwork. Original, asset-specific
+copyright notices are preserved in the source repository's
+icons/upstream/svg/, recorded in the distributed
+icons/upstream/manifest.json, and copied into PNG metadata
+where an explicit notice exists. The Apache-2.0 license is included in
+LICENSES/Apache-2.0.txt for assets with an explicit declaration or an exact
+source match to a pinned Apache-licensed upstream revision.
+
+Additional upstream attribution for the matched repository sources:
+
+This software includes code from IntelliJ IDEA Community Edition
+Copyright (C) JetBrains s.r.o.
+https://www.jetbrains.com/idea/
+
+The corresponding upstream LICENSE and NOTICE are retained verbatim under
+icons/upstream/licenses/.
+
+Modification notice:
+The project's build tools rasterize source SVGs into 16x16, 32x32 and 48x48
+PNG files and add source, license and modification metadata. No intentional
+color or shape edits are applied. The manifest maps each source to its PNGs.
+
+Twelve icon variants still lack sufficient license evidence.
+They are marked as pending review in the manifest and NOASSERTION in PNG
+metadata. This NOTICE does not grant rights in those assets. Do not publish
+the repository or package until the outstanding review is resolved.
+
+JetBrains, IntelliJ IDEA and other JetBrains product names are trademarks of
+JetBrains s.r.o. Other names and symbols remain the property of their owners.
+This is an independent project, not affiliated with, endorsed by or sponsored
+by JetBrains or Sublime HQ. Copyright licenses do not supply trademark rights.

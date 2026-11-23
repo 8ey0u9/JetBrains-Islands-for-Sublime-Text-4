@@ -1,0 +1,186 @@
+html, html.dark, html.light {
+    --mdpopups-bg: #26282C;
+    --mdpopups-fg: #D1D3D9;
+    --mdpopups-link: #71A1FE;
+    --mdpopups-hr: #33353B;
+    --mdpopups-hl-bg: #212326;
+    --mdpopups-hl-border: #33353B;
+    --mdpopups-kbd-fg: #9FA2A8;
+    --mdpopups-kbd-bg: transparent;
+    --mdpopups-kbd-border: #33353B;
+    background-color: #26282C;
+    color: #D1D3D9;
+}
+
+html body, html .mdpopups, html .mdpopups .lsp_popup {
+    font-family: system;
+    background-color: #26282C;
+    color: #D1D3D9;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 0;
+    padding: 0;
+}
+
+html p, html .mdpopups p {
+    margin: 0 0 0.5rem 0;
+}
+html h1, html .mdpopups h1 {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+}
+html h2, html .mdpopups h2 {
+    font-size: 1.05rem;
+    line-height: 1.4rem;
+}
+html h3, html h4, html h5, html h6,
+html .mdpopups h3, html .mdpopups h4, html .mdpopups h5, html .mdpopups h6 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+html h1, html h2, html h3, html h4, html h5, html h6 {
+    color: #D1D3D9;
+    font-weight: bold;
+    margin: 0.5rem 0 0.35rem 0;
+}
+html a, html .mdpopups a {
+    color: #71A1FE;
+    text-decoration: none;
+}
+
+
+html pre, html .mdpopups pre,
+html .mdpopups div.highlight, html .mdpopups pre.highlight {
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    white-space: pre-wrap;
+    background-color: #212326;
+    border: 1px solid #33353B;
+    border-radius: 0.25rem;
+    padding: 0.4rem 0.6rem;
+    margin: 0 0 0.5rem 0;
+}
+html code, html var, html tt,
+html .mdpopups code, html .mdpopups var, html .mdpopups tt {
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: #73767C42;
+    border-radius: 0.15rem;
+    padding: 0 0.15rem;
+}
+html pre code, html .mdpopups pre code,
+html .mdpopups .highlight code,
+html .mdpopups .highlight var, html .mdpopups .highlight tt {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+html .mdpopups .highlight pre {
+    background-color: transparent;
+    border-style: none;
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+}
+html ul, html ol, html .mdpopups ul, html .mdpopups ol {
+    margin: 0 0 0.5rem 0;
+    padding-left: 1.5rem;
+}
+html li, html .mdpopups li {
+    margin-bottom: 0.15rem;
+}
+html dl, html .mdpopups dl {
+    margin: 0 0 0.5rem 0;
+}
+html dt, html .mdpopups dt {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+html dd, html .mdpopups dd {
+    margin: 0 0 0.4rem 1rem;
+}
+html blockquote, html .mdpopups blockquote {
+    color: #9FA2A8;
+    border-left: 2px solid #33353B;
+    padding: 0.2rem 0.6rem;
+    margin: 0 0 0.5rem 0;
+}
+html hr, html .mdpopups hr {
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: #33353B;
+    margin: 0.5rem 0;
+}
+html kbd, html .mdpopups kbd {
+    color: #9FA2A8;
+    background-color: transparent;
+    border: 1px solid #33353B;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    padding: 0.05rem 0.25rem;
+}
+
+
+html .mdpopups .lsp_popup .wrapper {
+    padding: 0.5rem 0.6rem 0 0.6rem;
+}
+html .mdpopups .lsp_popup .wrapper--spacer {
+    margin-top: 0.5rem;
+}
+html .mdpopups .lsp_popup .m-0 {
+    margin: 0;
+}
+html .mdpopups .lsp_popup .color-muted,
+html .mdpopups .lsp_popup .signature-help-intro {
+    color: #9FA2A8;
+}
+html .mdpopups .lsp_popup .signature-help-intro {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+
+html .mdpopups .lsp_popup .actions {
+    background-color: #26282C;
+    border-top: 1px solid #33353B;
+    color: #9FA2A8;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+html .mdpopups .lsp_popup .actions a {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0.1rem 0.25rem;
+    border-radius: 0.2rem;
+    text-decoration: none;
+}
+html .mdpopups .lsp_popup a.copy-icon {
+    color: #9FA2A8;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+}
+
+
+html .mdpopups .lsp_popup .diagnostics .error {
+    background-color: #56272B;
+    border-left: 2px solid #80383E;
+    color: #D1D3D9;
+}
+html .mdpopups .lsp_popup .diagnostics .warning {
+    background-color: #44321D;
+    border-left: 2px solid #694820;
+    color: #D1D3D9;
+}
+html .mdpopups .lsp_popup .diagnostics .information,
+html .mdpopups .lsp_popup .diagnostics .hint {
+    background-color: #233558;
+    border-left: 2px solid #2E4D89;
+    color: #D1D3D9;
+}
+html .mdpopups .lsp_popup .diagnostics code,
+html .mdpopups .lsp_popup .diagnostics code.highlight {
+    background-color: #73767C42;
+    border-color: transparent;
+}

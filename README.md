@@ -1,139 +1,152 @@
 ---
 title: JetBrains Islands
-description: IntelliJ IDEA's Islands UI, rebuilt natively for Sublime Text 4. Dark and Light from a single install, with matching color schemes and file icons.
+description: An independent Islands-inspired theme for Sublime Text 4, with Dark and Light variants.
 author: beyoug
 ---
 
 # JetBrains Islands for Sublime Text 4
 
-IntelliJ IDEA's **Islands** interface, rebuilt with Sublime Text's own theme
-mechanism. One install ships both flavours; nothing patches the app, injects
-code, or touches its signature.
+An independent Sublime Text 4 theme inspired by IntelliJ IDEA's Islands
+interface. One install includes Dark and Light themes, matching editor and
+input-widget colour schemes, and file icons at 1x, 2x and 3x resolution.
 
-| Islands Dark | Islands Light |
-|---|---|
-| ![Islands Dark](docs/images/dark.png) | ![Islands Light](docs/images/light.png) |
-
-## Why this exists
-
-Most "JetBrains themes" are just a palette swap. This one is built the other
-way round: the palette comes from IntelliJ's published Islands tokens, and the
-UI rules were measured against real IntelliJ screenshots — tab pill geometry,
-island gaps, popup hairlines — then re-derived for Sublime's control inventory.
-
-## What you get
-
-| | Dark | Light |
-|---|---|---|
-| UI theme | `JetBrains Islands Dark.sublime-theme` | `JetBrains Islands Light.sublime-theme` |
-| Color scheme | `JetBrains Islands Dark.sublime-color-scheme` | `JetBrains Islands Light.sublime-color-scheme` |
-| File icons | `JetBrains Islands Dark.sublime-file-icons` | `JetBrains Islands Light.sublime-file-icons` |
-
-138 file-type icons, retina-ready at `@2x`/`@3x`, contrast-corrected to at
-least 3:1 against both backgrounds.
+**Pre-release:** public distribution is pending review of 12 icon variant
+licenses and the project/package name. See [Licensing and publication](docs/LICENSING.md).
+This project is not affiliated with, endorsed by or sponsored by JetBrains or Sublime HQ.
 
 ## Install
 
-### Package Control
+Requires Sublime Text 4 build 4170 or newer. macOS is the primary development
+platform; Windows and Linux remain unverified. No Node.js, Python or IDE
+installation is needed to use an already-built theme package.
 
-1. `Cmd+Shift+P` → **Package Control: Add Repository** → paste this repo URL.
-2. `Cmd+Shift+P` → **Package Control: Install Package** → **JetBrains Islands**.
+1. Obtain the package archive from `dist/`, or build it using `python3 scripts/manage.py build`.
+2. Open **Preferences → Browse Packages**. The `Installed Packages` directory
+   is beside the `Packages` directory that opens.
+3. Copy `JetBrains Islands.sublime-package` into `Installed Packages`.
 
-### Manual
+If `Packages/JetBrains Islands/` already exists, back it up and move it outside
+`Packages`: unpacked resources override the archive. For an editable install,
+unzip the archive into `Packages/JetBrains Islands/` instead. Keep that folder
+name because theme resources refer to it.
 
-```bash
-git clone <repo-url> ~/Library/Application\ Support/Sublime\ Text/Packages/JetBrains\ Islands
+## Activate and configure
+
+Use Sublime Text's native theme selection:
+
+1. Open the Command Palette (`Cmd+Shift+P` on macOS, `Ctrl+Shift+P` on Windows/Linux).
+2. Run **UI: Select Theme** and choose **JetBrains Islands Dark** (or Light).
+3. Run **UI: Select Color Scheme** and choose **JetBrains Islands Dark** (or Light).
+
+Or configure them directly in your `Preferences.sublime-settings`:
+
+### Dark Appearance (Default)
+```json
+{
+    "theme": "JetBrains Islands Dark.sublime-theme",
+    "color_scheme": "JetBrains Islands Dark.sublime-color-scheme"
+}
 ```
 
-## Activate
+### Follow System Appearance (Auto Dark/Light)
+```json
+{
+    "theme": "auto",
+    "color_scheme": "auto",
+    "dark_theme": "JetBrains Islands Dark.sublime-theme",
+    "light_theme": "JetBrains Islands Light.sublime-theme",
+    "dark_color_scheme": "JetBrains Islands Dark.sublime-color-scheme",
+    "light_color_scheme": "JetBrains Islands Light.sublime-color-scheme"
+}
+```
 
-`Cmd+Shift+P` → **JetBrains Islands: Switch to Dark** (or **Switch to Light**).
+### Reference and Recommended Tweaks
+Open the command palette and run:
+- **JetBrains Islands: 设置说明（中文）**: Opens the annotated settings template beside your preferences using Sublime's native settings editor. Copy only the keys you need; templates do not load automatically.
 
-The command flips the UI theme, the color scheme, and the Islands tab layout in
-one save. Prefer editing settings by hand? Copy the keys from
-`settings/JetBrains Islands Dark.sublime-settings` into
-`Packages/User/Preferences.sublime-settings`.
+You can also opt into Islands recommended tweaks (such as compact tab bar buttons and modified tab highlights):
+```json
+{
+    "highlight_modified_tabs": true,
+    "hide_new_tab_button": true,
+    "hide_tab_scrolling_buttons": true,
+    "draw_shadows": false,
+    "overlay_scroll_bars": "enabled"
+}
+```
 
-**Follow the system appearance:** **JetBrains Islands: Follow System
-Appearance** sets `theme: "auto"` with both flavours paired, so macOS Dark/Light
-switching lands on the matching Islands flavour.
+Fonts, editor font size, indentation, folding preferences, key bindings and
+project files remain yours. The [Chinese settings reference](docs/SETTINGS.zh-CN.md)
+explains the managed values and optional switches.
 
-Do not set `file_icon_theme` yourself — the icon mapping whose name matches the
-active theme loads automatically, and pinning one forces its variants in both
-flavours.
+File icons load automatically by matching the active theme's name. The theme contains
+42 file-icon types covering 138 extension/name mappings per variant.
 
-## Measured against IntelliJ
+## Popups and native behavior
 
-Every value below was sampled from a live Sublime window and compared with an
-official IntelliJ Islands capture. Details in
-[docs/VISUAL-REFERENCE.md](docs/VISUAL-REFERENCE.md).
+The theme styles documentation, diagnostics, completion and native folding
+controls. Actual signatures, text, links, Quick Fixes and navigation come from
+Sublime and installed providers such as LSP; those packages are not patched.
 
-| | Dark | Light |
-|---|---|---|
-| Window / status bar | `#26282C` | `#E9EAEE` |
-| Tool window | `#1E1F22` | `#F7F8FA` |
-| Editor | `#191A1C` | `#FFFFFF` |
-| Selected tab fill | `#233558` | `#E3EBFE` |
-| Selected tab border | `#2E4D89` | `#A7C5FF` |
-| Selection row | `#2A4371` | `#D0DFFE` |
+If you use mdpopups / LSP, you can reference the styled popup sheet in your settings:
+```json
+{
+    "mdpopups.user_css": "Packages/JetBrains Islands/styles/mdpopups.css"
+}
+```
+Existing User CSS (`Packages/User/mdpopups.css`) is composed and included last.
 
-The selected tab is a pill, not a full-bleed block — matching IntelliJ's
-`EditorTabs.underlinedTabBackground` design. Pill padding is calibrated to
-8.5 pt left / 8.0 pt right on retina captures.
+When upgrading from a version with theme files at the package root, replace the
+old archive or unpacked folder, then restart Sublime to refresh cached resource
+paths. If cached popups retain the previous style, save work and restart Sublime normally.
 
-## Known limits
+## Limits
 
-Three things cannot be reproduced, and the reasons are documented rather than
-hidden:
+- Native control layout differs from IntelliJ: no tool-window stripe, breadcrumb
+  bar, file icons inside tabs or added gap between sidebar and editor.
+- Theme/input textures use PNG. Source SVGs are rendered during development;
+  Sublime loads the prebuilt density variants.
+- Native title-bar styling depends on the platform. The minimap is shown/hidden
+  through the View menu; the theme does not install a separate toggle.
+- Popup placement, size limits, dismissal and available actions belong to
+  Sublime and providers. The theme does not add browser-style popup controls.
 
-- **Island gap between sidebar and editor.** Sublime draws no gap there;
-  `grid_layout_control` only covers editor splits, and a 1 px texture stretches
-  into a band. The two surfaces differ in colour instead (`#1E1F22` vs `#191A1C`).
-- **Tool window stripe** (the Project/VCS/Structure icon column). No matching
-  theme class exists.
-- **Minimap toggle.** `show_minimap` is an internal view flag, not a documented
-  setting; only `View > Hide Minimap` turns it off, per view.
+## Uninstall
 
-Also, Sublime has no file-type icon in tabs and no breadcrumb bar, so tabs are
-narrower than IntelliJ's and the status bar's left side stays Sublime-native.
+1. Restore your previous `theme` and `color_scheme`. If you use `auto`, restore
+   the `light_*` / `dark_*` pairs too.
+2. Remove or restore `mdpopups.user_css` if it points to
+   `Packages/JetBrains Islands/styles/mdpopups.css`.
+3. Remove the installed archive or unpacked `Packages/JetBrains Islands/` folder.
+   Layout preferences already saved remain until you change or remove them.
 
-## Documentation
+## Documentation and development
 
-| | |
+| Need | Read |
 |---|---|
-| [Installation](docs/INSTALLATION.md) | full install, uninstall, restore |
-| [Design](docs/DESIGN.md) | token table and per-surface layer notes |
-| [Color system](docs/COLOR-SYSTEM.md) | every UI token and editor token |
-| [Icons](docs/ICONS.md) | source, licence, contrast pass, coverage |
-| [Visual reference](docs/VISUAL-REFERENCE.md) | measured screenshots and acceptance |
-| [Compatibility](docs/COMPATIBILITY.md) | Sublime dependencies, what breaks on upgrade |
-| [Development notes](docs/DEVELOPMENT-NOTES.md) | build, testing loop, gotchas |
-| [Design spec](docs/DESIGN-SPEC.md) | the original 1084-line project requirements |
+| Understand palettes, widgets, popups and icon sources | [Design](docs/DESIGN.md) |
+| Look up settings in Chinese | [Settings](docs/SETTINGS.zh-CN.md) |
+| Review publication requirements | [Licensing and publication](docs/LICENSING.md) |
 
-## Build from source
+### Development commands
 
 ```bash
-python3 scripts/gen_textures.py         # textures/*.png (+ @2x/@3x)
-python3 scripts/build_themes.py         # both themes + both icon mappings
-python3 scripts/build_color_schemes.py  # both color schemes
-python3 scripts/verify_package.py       # offline validation
+# Build theme resources and generate the package
+python3 scripts/manage.py build
+
+# Run all regression tests
+python3 scripts/manage.py test
+
+# Validate resources and archive integrity
+python3 scripts/manage.py check
 ```
 
-`build_themes.py` needs Pillow. Icon rasterisation additionally needs
-`MATERIAL_ICONS` pointing at a Material Icon Theme 5.40.0 checkout and `resvg`;
-the generated PNGs are committed, so a normal build does not need them.
+## Credits and license
 
-Everything under `.sublime-theme` and `.sublime-color-scheme` is generated — edit
-the scripts, not the output.
+Original code, documentation and textures: [MIT](LICENSE). Third-party icons
+retain their upstream rights; see [Third-party licensing](docs/LICENSING.md),
+[NOTICE](NOTICE), the [Apache-2.0 text](LICENSES/Apache-2.0.txt) and
+[asset manifest](icons/upstream/manifest.json).
 
-## Credits
-
-File icons from [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
-5.40.0 (MIT), re-rasterised and contrast-adjusted. See
-[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
-
-Not affiliated with JetBrains. IntelliJ IDEA is a trademark of JetBrains s.r.o.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+JetBrains and IntelliJ IDEA are trademarks of [JetBrains s.r.o.](https://www.jetbrains.com/).
+Copyright licenses do not authorize use of those marks as this project's branding.

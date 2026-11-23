@@ -1,0 +1,2010 @@
+{
+  "schema_version": 1,
+  "renderer": {
+    "name": "@resvg/resvg-js",
+    "version": "2.6.2"
+  },
+  "assets": {
+    "file_type_dark_archive": {
+      "source": "icons/upstream/svg/archive-dark.svg",
+      "source_sha256": "634dd0d18e9d12645c2d95c008bcec8252c9a2abdc3a7ccb8a53cd3a8060977b",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/archive_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/archive_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_archive.png": "dc6e0b0fe7482c048e342171496786003565437264d09229b7a0ba7fa4f8b46e",
+        "icons/file_type_dark_archive@2x.png": "6f653b155ffe3cdfff2d02cc5a1ed21d7ceef958ead675445740f81b8e786b6e",
+        "icons/file_type_dark_archive@3x.png": "445e2413e5a1ceba623836eec8872d6a00373db2d6039007f9f1a1ca4867bef8"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_archive": {
+      "source": "icons/upstream/svg/archive-light.svg",
+      "source_sha256": "702005c0379a659c1f800d53531d81687064b80448615a05370a42190f13d768",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/archive.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/archive.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_archive.png": "e89a847a40c546ec9bad4dba1d2fd01c598834feb0c595f5d9e0cccd36d107bc",
+        "icons/file_type_light_archive@2x.png": "dea436b5f459b548eaca76b84c851c5dc6cc040b6c2baea1f3ab82a8362ad968",
+        "icons/file_type_light_archive@3x.png": "94d8bf1acb7d4b2823fe95393a33f49effd48f6243b603c09643d022c6fe8988"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_bazel": {
+      "source": "icons/upstream/svg/bazel-dark.svg",
+      "source_sha256": "888f51bf2c37faaa149e0afebca46bedd1bab358dedce7b549173eb32d1d9787",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/bazel_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/bazel_dark.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_dark_bazel.png": "585c6880ad5f32fe4a3603061e08fcca818c6be47aa74cee0b9a78d9e1864d15",
+        "icons/file_type_dark_bazel@2x.png": "ca6ddfb6d436673872f4813cbca332dbd3724689f356b2cdf2e4f135f323a359",
+        "icons/file_type_dark_bazel@3x.png": "03a3f70121b413db4300171597717d4c515fc0ee08eabeaa8701b80d7f690416"
+      }
+    },
+    "file_type_light_bazel": {
+      "source": "icons/upstream/svg/bazel-light.svg",
+      "source_sha256": "888f51bf2c37faaa149e0afebca46bedd1bab358dedce7b549173eb32d1d9787",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/bazel.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/bazel.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_light_bazel.png": "80c2f6d09e1d5b52a66a97b225c2f6409859bb18a1832b7e4321cd9e291730f3",
+        "icons/file_type_light_bazel@2x.png": "b6ff1e512f33e12751ccdba227304ecd6a8ee3ad56d62a126b5f378cda3826ff",
+        "icons/file_type_light_bazel@3x.png": "699aac97cb46c7135952c68e46141db468a79b7ea1fffd0eb5c9e0c305b271f3"
+      }
+    },
+    "file_type_dark_binarydata": {
+      "source": "icons/upstream/svg/binarydata-dark.svg",
+      "source_sha256": "a3775627cd46630059454a3e7b8972c85c8672b64147f35e68699c208044e5ba",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/binaryData_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/binaryData_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_binarydata.png": "7ca20b61b40527fca861bcb0ba7cc3cf4a1ed8eb47d27816b05918baf7472b5c",
+        "icons/file_type_dark_binarydata@2x.png": "623ac1ed6f67e87357274f3369aa11da9c52781a0d2987948eb7c48bbbba78a0",
+        "icons/file_type_dark_binarydata@3x.png": "ecfe01d0431f1f07133145df7865f69259af110e686806104c24ae2c4ecfe6aa"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_binarydata": {
+      "source": "icons/upstream/svg/binarydata-light.svg",
+      "source_sha256": "c9e0fe6f37b587d792110a526162acff90f7f33f7fe48c1e5f17bc209af77211",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/binaryData.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/binaryData.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_binarydata.png": "348b9df1a13741dfab88000b7d20e65e09ec791730410e493f6f41ca51b80a66",
+        "icons/file_type_light_binarydata@2x.png": "1a73526f7c488d96b76e010d86c62d5decd36132b0221a97e9a4da445d77c46d",
+        "icons/file_type_light_binarydata@3x.png": "3250e135a52f11e9578b3e234d5a0696556aa64bae6b53c44e2858b732f98693"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_c": {
+      "source": "icons/upstream/svg/c-dark.svg",
+      "source_sha256": "db11271fe28e554ac9f37a760392742de642bed827bd25413ec907f0ad023fb4",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/c_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/c_dark.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_dark_c.png": "629dd6b864faad0438d9abe20ac8209d9ee828d4bba879cf9a9d08063af11998",
+        "icons/file_type_dark_c@2x.png": "1dac4029362812df7d818ebdded9cb4b175c2c5c3b6454482b8e675fa95e9829",
+        "icons/file_type_dark_c@3x.png": "9230c2f57f846892f94ab8a2ff7e3d294163ad4503bb51a11c1446a51b624b81"
+      }
+    },
+    "file_type_light_c": {
+      "source": "icons/upstream/svg/c-light.svg",
+      "source_sha256": "ba02bfb94e13c0d8f9688a53276a3c0df09bbf95848596f1ca93af5c2efa3672",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/c.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/c.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_light_c.png": "45a0f540e52b0f265a344108ccba48fdf3e2b5de78faad45f6d8f4c9e7a8e50f",
+        "icons/file_type_light_c@2x.png": "0928f3a563e1d3ec1c7d1745962e722cf2b7a1196ce4dbb8e7336d3e8ae90e0f",
+        "icons/file_type_light_c@3x.png": "a2a8ce5768df6d70a9e932f5441f39f00da3f9d443cda2f617321d0034cc5851"
+      }
+    },
+    "file_type_dark_cpp": {
+      "source": "icons/upstream/svg/cpp-dark.svg",
+      "source_sha256": "670c0c009b8990cbe1a835765d62d8549b8a1bb56948611e36338da4321b1370",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/cpp_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/cpp_dark.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_dark_cpp.png": "fbbb734f24ff4c1f4a0fff861171b67066db630cce2583ab0596c8fbc51abff3",
+        "icons/file_type_dark_cpp@2x.png": "7f207c625ea9a338639854af38143270c79a25f906ae74c5f0c2f019d80e9eff",
+        "icons/file_type_dark_cpp@3x.png": "cd0f8880739254418962a18d5065e9a7694a3e9684051ba6806bca3ffdc49998"
+      }
+    },
+    "file_type_light_cpp": {
+      "source": "icons/upstream/svg/cpp-light.svg",
+      "source_sha256": "2565dd56819559e5f4e052f0d9e05e400b2def25509834408fb087e77e42e7b7",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/cpp.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/cpp.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_light_cpp.png": "e9b532bad0d604a27065e378b5a0f240380cdd13fc8e5dbde97f040c53df2b18",
+        "icons/file_type_light_cpp@2x.png": "14011d6b4308185183dd6d2e69d14e1e2e933ed8c56e15f8fe831a38f88a6f4d",
+        "icons/file_type_light_cpp@3x.png": "df8e32b5659646d970481a4210436537dfbf92e564e635dddf1a490fefc9eadc"
+      }
+    },
+    "file_type_dark_csharp": {
+      "source": "icons/upstream/svg/csharp-dark.svg",
+      "source_sha256": "9a31e1dd7a922f836de8e86dc4140ca9bcc60f1aa0d239f32d6792c52ddeaf5b",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/Csharp_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/Csharp_dark.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_dark_csharp.png": "a707eae7d2e41f9206b4b09f35e8cf1a4c0e4ea8396109913d34bbdf50338acf",
+        "icons/file_type_dark_csharp@2x.png": "74da97833fc8d2107c37749522d22ca4e7bc6c616feb0186d43f0ca60698ee22",
+        "icons/file_type_dark_csharp@3x.png": "61c46b98f52fde0e0b37a6feea5c7501b114f89faff758cbd5ae13ebafb482c8"
+      }
+    },
+    "file_type_light_csharp": {
+      "source": "icons/upstream/svg/csharp-light.svg",
+      "source_sha256": "457df8d67369dbdec038a625ba587907571ecac9c358cc015ff84faf0ac2a520",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/Csharp.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/Csharp.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_light_csharp.png": "8e6fc94cbd325fad0ed7f747e1a198831ecc4ecaf863f5b1066b5902d15d3d55",
+        "icons/file_type_light_csharp@2x.png": "83b2d2a8ed8281d2af1f663247eec0d37967410210de1731ea358a96f43b6519",
+        "icons/file_type_light_csharp@3x.png": "f71c65c75e4ecdae7c56c91f1832896e12e2405e697d06fcbe491f91aaac4cd2"
+      }
+    },
+    "file_type_dark_css": {
+      "source": "icons/upstream/svg/css-dark.svg",
+      "source_sha256": "9faac1b6520d894b7473da2087300c18447e0268f7726e7d131976c76afe1a06",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/css_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/css_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_css.png": "c7ec395813aa7015191da565f7a3221f188de30863aeedb07484f1e498c046e0",
+        "icons/file_type_dark_css@2x.png": "a9a3d0ec97cfcc31db53d951ffaab81cfdfa25c4b244f6f8e20fb0eaf2d86dbe",
+        "icons/file_type_dark_css@3x.png": "f5d24c521216b7bbed7f3fd4f3bf60ce31df319804fc6abd14e94e38bfeba527"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_css": {
+      "source": "icons/upstream/svg/css-light.svg",
+      "source_sha256": "422c5512c70808e0f61191a4279749301a7296c6082a3f001d397f0e2ec93590",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/css.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/css.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_css.png": "6db9f159760e08b8914f0f41337ec9be5409c1fbacb4dda53c099fb595c39cef",
+        "icons/file_type_light_css@2x.png": "fdcf63e802c810a52394bde07ef12656439e936fe4a3f2555f287c504af66ccf",
+        "icons/file_type_light_css@3x.png": "f3067582da552f5d0a65e1a62c396660090b4d55a4787314046e874a1da644c6"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_docker": {
+      "source": "icons/upstream/svg/docker-dark.svg",
+      "source_sha256": "a35a9f245da1960faa682394832cc21bafbb6aca420b30c4c7b96ea70dd2aac7",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/docker_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/docker_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_docker.png": "27fc3b46a5200c483b0f2af83b4bcf84d5505169dfbe185a3f1a345cea86b98f",
+        "icons/file_type_dark_docker@2x.png": "d2ee8dac7aa96a597737e9b0c484cc8eb2f1ee446b1e545d1e52f69285f7e3a7",
+        "icons/file_type_dark_docker@3x.png": "a644c6db1ebff95e659d6be0bd69fae9c5b00223d5c0a5ad40206c04549057ab"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_docker": {
+      "source": "icons/upstream/svg/docker-light.svg",
+      "source_sha256": "76f8d25a1754ee4c59581656477e650edc241c86c6c841385eea03f52755f7bc",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/docker.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/docker.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_docker.png": "7ac03dc26d7c594c93aeb1d5b0c070ae14df92d2c0a3d28fd7e7cb33b23b7c13",
+        "icons/file_type_light_docker@2x.png": "3b9e0517398385432f1ace95e242a67e53bacb58e748db1fd1fc2d03a1430539",
+        "icons/file_type_light_docker@3x.png": "79986e993d548da1cb9f09f32c588a48c6c1e6408f732172a32310e5408175d8"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_eslint": {
+      "source": "icons/upstream/svg/eslint-dark.svg",
+      "source_sha256": "ed6c59c5769b4f38ff1da463a4f980662a4345112503bae34e688ec5ef823b4e",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.backend.jar",
+        "entry": "icons/expui/fileTypes/eslint_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_eslint.png": "e9dca34e09f09943f412a2385b6bfd078b2504f9f19241996fba79035c0aba8b",
+        "icons/file_type_dark_eslint@2x.png": "68ec9a98df71056254fdfb48e3c9689df664e7fa92b8682dfb942ec58215fef9",
+        "icons/file_type_dark_eslint@3x.png": "b8b79fb9d4477cc0c12c2777c7ffb8068cc7e43c429f4d5d2d103615a603ee27"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_eslint": {
+      "source": "icons/upstream/svg/eslint-light.svg",
+      "source_sha256": "b77d6749ce5816a96e28a662ae8df8832dd3aa4cccfca73aa150b88de495a0a1",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.backend.jar",
+        "entry": "icons/expui/fileTypes/eslint.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_eslint.png": "a9eb4e5a1f97336db5ec076a62f0d91d845c7adcc53c2f61b336a4b689493d86",
+        "icons/file_type_light_eslint@2x.png": "b1cbcbaea8d1940a01e6e5bdb55adb9738a59629a453dbd80fa7414ea52816d4",
+        "icons/file_type_light_eslint@3x.png": "432f7b8a80749e72e9f40f47376b07c4cded6cc884368c66fabe6df0d7581180"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_font": {
+      "source": "icons/upstream/svg/font-dark.svg",
+      "source_sha256": "6dd826b0e8b48f3a83445f915e1f76f54cd62b0000fe3015cb415a37c090a19a",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/font_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/font_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_font.png": "0e974e43c6146fe970bff3d236155ab0b4505dc50dddf4cd8e0f181b369c2637",
+        "icons/file_type_dark_font@2x.png": "1d404db7b661e6f475b3261c5a42737cd93f3479d1b48f9f07640841e021b9a1",
+        "icons/file_type_dark_font@3x.png": "9739b007880a529a76c795530dc20021b3795320751bff680e9b78e09dfe238e"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_font": {
+      "source": "icons/upstream/svg/font-light.svg",
+      "source_sha256": "049689bd55570a4bacda649b609b3fdf5019023673d344775b025097ea7cb268",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/font.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/font.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_font.png": "68b4f34d857724945aadb50939d066da8f93bbf8d080ddbb5a6490c2a6585091",
+        "icons/file_type_light_font@2x.png": "ab863b0a339ee22dd057713fe96b39f4a62a11dbf405e1f40bc303d8b18f0e08",
+        "icons/file_type_light_font@3x.png": "86fb25eaeb861985c2ef6534a46dc5ac77c347505366cdd5dc35d014a3a3175d"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_go": {
+      "source": "icons/upstream/svg/go-dark.svg",
+      "source_sha256": "526728e9934282dd278825c1cb0c704e40038be5d2c4d53fddc26b0e5d15a152",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/go_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/go_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_dark_go.png": "f67c92543ce3245df24339ee0b738f81aa88dd646a54de4364eec5743ba20cbb",
+        "icons/file_type_dark_go@2x.png": "395709858ef617b4a7d921682176bacf0971a25ba5e66632376553af3b0d605c",
+        "icons/file_type_dark_go@3x.png": "b16150d61feb1dcfb8ec1602e657fa1588743efc660db7469525d064ee52cb1e"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/go_dark.svg",
+        "source_sha256": "526728e9934282dd278825c1cb0c704e40038be5d2c4d53fddc26b0e5d15a152",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_light_go": {
+      "source": "icons/upstream/svg/go-light.svg",
+      "source_sha256": "1dbb956d83babe1821c56de23a3951d97074761f7dcb32bea82cfb2a3bf0e482",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/go.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/go.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_light_go.png": "e086d4847f6ac303d0526d0f19b261ac39236a1f5935a91532a9cc75d1dd58aa",
+        "icons/file_type_light_go@2x.png": "4d931b9baa384660fafac0d58b13bd512be11c2071a387a78700c88914b20e71",
+        "icons/file_type_light_go@3x.png": "5604c159bfb0fb93fbac2e492c615a5a6e116b1bd5f0b31901446c641b1bd726"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/go.svg",
+        "source_sha256": "1dbb956d83babe1821c56de23a3951d97074761f7dcb32bea82cfb2a3bf0e482",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_dark_gradle": {
+      "source": "icons/upstream/svg/gradle-dark.svg",
+      "source_sha256": "243bd5bd360895eb33da558a7e229b1139906e79cd2bc52770dabd01d2a87647",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/gradle_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/gradle_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_gradle.png": "e7f2b6a871b1c2464f0488509c21f90ccc3f359cd88cf2413828f96be2df75c2",
+        "icons/file_type_dark_gradle@2x.png": "2d240c8f4ab02a673595f2252bcc7e20993e5aec6f72a4d2ae2f27d876d4a72b",
+        "icons/file_type_dark_gradle@3x.png": "49632f3bf3162f88bac01a0329936de4938e52e6e10bd1ebf72f2fb241ed8ce4"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_gradle": {
+      "source": "icons/upstream/svg/gradle-light.svg",
+      "source_sha256": "9898cf8edd8ab790414c0fed9cba827d8940b487a597f55c61017e84912568c2",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/gradle.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/gradle.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_gradle.png": "ac481c5f9057e719520e961889a5b78512062c1b96e924476bf6675ee0c8867e",
+        "icons/file_type_light_gradle@2x.png": "ca0e71ee5d8b7e6640e712c45c9a91437bcfc61177fbad6c52f70b1a458cc65b",
+        "icons/file_type_light_gradle@3x.png": "9a216722f0a037156458d43b9f6ffdf9eae65246b1e818de6cd7d587b75157ec"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_graphql": {
+      "source": "icons/upstream/svg/graphql-dark.svg",
+      "source_sha256": "5d5cdccba9d0f899d1ff48743f0cd9c37c1f7fca3321755deeb3a62d0018127e",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/graphql_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/graphql_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_graphql.png": "6c24949e8ec8256c49bc2f308ea6e76396acd0419385cc21a1cdb1dcefac3867",
+        "icons/file_type_dark_graphql@2x.png": "933f1c88d69400229cc92d5fecbeac0b0ab89f6850940faea78aa2e416cf5e8b",
+        "icons/file_type_dark_graphql@3x.png": "d61ec9dd70222e9d84f390f76075c177afd08014885010f566a8b596a663ee5b"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_graphql": {
+      "source": "icons/upstream/svg/graphql-light.svg",
+      "source_sha256": "8098357ebd83a5f6fdf3ef32051d222ff21e3cf24937451fa0ea16d8bec68d7f",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/graphql.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/graphql.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_graphql.png": "75409cb18ce9781285f1ea6842e630aea0b1422a4ca77c8ce52b1d5b6a7247ac",
+        "icons/file_type_light_graphql@2x.png": "8fd3e0a0b467178c12f4d4724070a79f32d5e3b69b4754d9877eaa0b3bd1c8a0",
+        "icons/file_type_light_graphql@3x.png": "b8e2dfe0cc2ccc8fe7a325eb7abd89ab99821fcbf1fa2b4a1d7bafc5d0230b7f"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_groovy": {
+      "source": "icons/upstream/svg/groovy-dark.svg",
+      "source_sha256": "c8e3bd0afad30480b185bca802b57159fe63a03e9723fca0a2b7bce2afc3fa50",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/groovy_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/groovy_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_groovy.png": "e8b5cda522d0d9c36bb339cfddd2d545cd7b9cad6c6567e53b636c57fb15b534",
+        "icons/file_type_dark_groovy@2x.png": "b61a1f25382a2ac2d9ca49ef8f6b4f2b64bd3a527bc2d049c01851fda209d4ea",
+        "icons/file_type_dark_groovy@3x.png": "063ea68e39c6999744df986b23b32a747143984f0e890c266dc25eb07549b9f7"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_groovy": {
+      "source": "icons/upstream/svg/groovy-light.svg",
+      "source_sha256": "846538b4edbcfcbbf2a5790d565c5512c860cadfb2dc8fd82656799b4396fe2a",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/groovy.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/groovy.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_groovy.png": "b2fc97b8f86e8351d3d4d8016e2c0becd8edf865f507eabe7ea9f99d7cac7c94",
+        "icons/file_type_light_groovy@2x.png": "b11f4d3667ea38c9434031f1d008f7fa2bb5050499b8753467c7ad3c93154ca0",
+        "icons/file_type_light_groovy@3x.png": "895ae7275e1b919e0dd861559b36a6ca7406e1ed5986f7c74edfcce90af9fbd7"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_html": {
+      "source": "icons/upstream/svg/html-dark.svg",
+      "source_sha256": "bfa377d13629063e50627053662bfe7d6d61b3e1044c3e2485536ef5e2b9a3cc",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/html_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/html_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_html.png": "425b59292ed6b812023378b6d0b05f63f32e3dadb8b773066f1167596631f4a3",
+        "icons/file_type_dark_html@2x.png": "8b3a5fc7827f2daf94448d625a27bcf4ecc6ef137488aa142b133204dcf4ec8f",
+        "icons/file_type_dark_html@3x.png": "30c3a9499b15c088cf966afef458c22d1358651253089833b0ce6385f0fe980d"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_html": {
+      "source": "icons/upstream/svg/html-light.svg",
+      "source_sha256": "8cc1a59695de46025d34d8cb61a73419f50160c45b96a587e426f84d65c530f4",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/html.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/html.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_html.png": "db04d5f9c894f002b16c5b5c4cd86cb6be52f499b0d3d7097c7082f5ffbd2e0d",
+        "icons/file_type_light_html@2x.png": "35f7a0e2c6557d47c1a4b642262259f2eb1fa4d8eeb3edadfa168c03dd1ecd38",
+        "icons/file_type_light_html@3x.png": "9634894b337d7889bce2859d84efa6e14a9ac0a894cb4f7eb028eaa7a6f2a3db"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_image": {
+      "source": "icons/upstream/svg/image-dark.svg",
+      "source_sha256": "b7c8a22b2b1022a23f1a2a6b923ca52f59d5f9abaa4dcf1718fa9d50f2f710ef",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/image_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/image_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_image.png": "b0e0dd06be1ef1745a0ea7209d2b8331b10fc877e684a68eeae9bc6d22876d8c",
+        "icons/file_type_dark_image@2x.png": "ca01082e1279c32ddcb3956c22449fd0f6427aeadfb98bd907d200e65907e67a",
+        "icons/file_type_dark_image@3x.png": "6c8206b6d6646e7b37773aa9fbe466057dfe186324453245e84e94b1645dbfcc"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_image": {
+      "source": "icons/upstream/svg/image-light.svg",
+      "source_sha256": "879b275fb4c2e263cac26ea6035cb5c99dd72858e8b5ec295d21c0b5636d9513",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/image.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/image.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_image.png": "6b6ce647440d0f4ad0eb2c2214afa5ce0fbda4635f4d5b7ade6cdc00eba5d605",
+        "icons/file_type_light_image@2x.png": "7fbcb5a5c6802db18b4d0e92de1479ebf9293efe1cc789bf058f59df86526881",
+        "icons/file_type_light_image@3x.png": "d121b68f16fdf438ab9cf2499bcc6b309261f2dd0536515357c8cb00d31cc071"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_java": {
+      "source": "icons/upstream/svg/java-dark.svg",
+      "source_sha256": "3166f1d9895bc63034e8f105672bb4db124350eb6ed0803e300d24e0fb9a14bc",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/java_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/java_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_java.png": "13a457f4f404125d06d8be5c513c89967dc7344ef3dad26fdff0223935206742",
+        "icons/file_type_dark_java@2x.png": "9bf2395aa60bc85e1a3731604489aaada64488a5e36067cac49cf2158a339c2d",
+        "icons/file_type_dark_java@3x.png": "8d5b3140a65d49fe6248dabefb6ff431cbed9ab6c204a689fca1844875bd729b"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_java": {
+      "source": "icons/upstream/svg/java-light.svg",
+      "source_sha256": "2056fcd754bc6a6e0ba13d5cf054b022f363f2f6839828b86c83a47f6ec8defc",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/java.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/java.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_java.png": "02039bf2cf1dcd7c006f89780eb73816e8ea72549267824f0618baa0f4853edc",
+        "icons/file_type_light_java@2x.png": "0a7517506b26fa53d6e684018a2d6219e625ce9594132247b462b25b760d2603",
+        "icons/file_type_light_java@3x.png": "ff9210d98ebf041e0eb41c26615ec07c6f897aad18b43a5292418ac0cad20b5b"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_javascript": {
+      "source": "icons/upstream/svg/javascript-dark.svg",
+      "source_sha256": "f5ff367bcfeaab33abdac467ce9f7122543f4da21bda76806e96017a1da55b7b",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/javaScript_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/javaScript_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_javascript.png": "5b9e7629fc0283adc0b073152e0f9bfd8a129a733caff5731c78d324ffdba9db",
+        "icons/file_type_dark_javascript@2x.png": "23f4e7f8612539399a38ec1958b5afb126ef5e09ea07d5fcca6b9c47ccfcc783",
+        "icons/file_type_dark_javascript@3x.png": "45e49d1010af96402900e90a2622810e3a90ee72aaeb29328d9551fa04a62c9d"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_javascript": {
+      "source": "icons/upstream/svg/javascript-light.svg",
+      "source_sha256": "e601f341c4c0b0c52f2abfbb6bb4132862d63c3d862f4c7eca86efdf90565dcc",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/javaScript.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/javaScript.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_javascript.png": "61959ecf05796eb1efbe4f9d8adecfb6eebeb10907306b27842548e2d2cfc40e",
+        "icons/file_type_light_javascript@2x.png": "6e69c2236c676e28bba8dee7e3cb913965374361a150e864c5c640c483448c28",
+        "icons/file_type_light_javascript@3x.png": "fa02b0c27dea0b73093cb53042f4112b94333d920519fc24263d86e3b1982428"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_json": {
+      "source": "icons/upstream/svg/json-dark.svg",
+      "source_sha256": "c4992ee9127e8685d5ec96570f48668d0be7aabfa4f0099ff6dbc5e51796a5f2",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/json_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/json_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_json.png": "406f02b5ae06b49133abf467f72fa50e4ef4d910c5e579ba96b3934f25025be3",
+        "icons/file_type_dark_json@2x.png": "8eaaa3566341a37851a7d52f5201402f052c1487fae76fd6bb0345bb15b0b048",
+        "icons/file_type_dark_json@3x.png": "1550e7d8ba7b6cf19209ee02436c1305a55323dce0c68addf2ce09d34e4698c1"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_json": {
+      "source": "icons/upstream/svg/json-light.svg",
+      "source_sha256": "bbbc7e1e2b583e2b4cca3a0c4dd507ce41c914a66d7bad1e6599f3ea5395e61c",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/json.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/json.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_json.png": "460ca2b0e237bdee8aa112f22e4ee89a9efd50259c44889e27d1aa7bb8440c70",
+        "icons/file_type_light_json@2x.png": "beb4294a64dd06f371ed11ee4782d1e117d589ff821f90bf86bd9f7dee715648",
+        "icons/file_type_light_json@3x.png": "119faa263a1b6c9c1cf516c93f794baa1cab464d07072467dcaa5b77d967fcf5"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_jsx": {
+      "source": "icons/upstream/svg/jsx-dark.svg",
+      "source_sha256": "405daa657358e9e3076f56ac25682aeef09333d4394c84ac462f03461cc1142b",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.parser.jar",
+        "entry": "icons/expui/fileTypes/jsx_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_jsx.png": "c66194e63363e3a24c0e3b3f38b3541ec531598403e2b5e34bc637323555f98c",
+        "icons/file_type_dark_jsx@2x.png": "5a67a436cfeb9ce52f25f7e84e8310ecfa8028b297fc9f64eb1291ae5b39395b",
+        "icons/file_type_dark_jsx@3x.png": "b0f43d8c66645c2b7def6f003dad1e08d010a6bdb636f4462455b6dad0758a23"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_jsx": {
+      "source": "icons/upstream/svg/jsx-light.svg",
+      "source_sha256": "7e09a7104c19f7d2c72815b1746b55658cca3db9b9f4a92d49ddd9db2115f678",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.parser.jar",
+        "entry": "icons/expui/fileTypes/jsx.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_jsx.png": "519e777bf54e7554074112bca5f191a3f9684ef91084931e89bd95b86023b72a",
+        "icons/file_type_light_jsx@2x.png": "0a35d5891384be6af02d40981561461f0136994db783ead7aa9308355da3d9f5",
+        "icons/file_type_light_jsx@3x.png": "65d995bc2b757c85e847c411e3fb17cdb33c4605234108c77df1a02782ea521c"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_kotlin": {
+      "source": "icons/upstream/svg/kotlin-dark.svg",
+      "source_sha256": "5ddc296ac90ee3c2551d88e15f1253d21412a5c7c8cfac7fae63a27cdcba8746",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/kotlin_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/language/kotlin_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_kotlin.png": "6604c9b4078157781db86f00c60ca09ee0c4d351798ac49e8e1c7f1e5819907e",
+        "icons/file_type_dark_kotlin@2x.png": "f3868c4177a28d9cad9851898dd1b6a2a93c7177151581d210a75cf56340da05",
+        "icons/file_type_dark_kotlin@3x.png": "fd400be1e9e01387e9b3f708cc8516192032587eea7ccf9a4b262fc509c944ae"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_kotlin": {
+      "source": "icons/upstream/svg/kotlin-light.svg",
+      "source_sha256": "bcdbcb8ccc1312004a635477a1635e026196e37173dfd712415c212ce6851fc0",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/kotlin.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/language/kotlin.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_kotlin.png": "d432d15e4bd3c8e97368e327f8851536202c7836833813ba552d19f997daecaf",
+        "icons/file_type_light_kotlin@2x.png": "49ac234e983aea170d6400b2fd92d8ff5aaa86ad0bc81d424a525374b8150b87",
+        "icons/file_type_light_kotlin@3x.png": "32fe2726aa9336fd8bab35948e49feea67324c57a788bf269642c4ddadf4dada"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_markdown": {
+      "source": "icons/upstream/svg/markdown-dark.svg",
+      "source_sha256": "4a51e2e3aca13cf778539187ea22a60f0f9a83731e70d5b51ff79f34ba51a1e1",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/markdown_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/markdown_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_markdown.png": "cc079fdc962445918705cba7a309a0b9a21eb8771ef0837ad6f7fae1ce1a1738",
+        "icons/file_type_dark_markdown@2x.png": "ebc649294bc2ef12c30b0aac5413152001b0508b78b394fecd6f220d2521261f",
+        "icons/file_type_dark_markdown@3x.png": "2be7a4aceafcc0812e57a14ca484e4c575d69bbc641a09aab96535024a7dc43a"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_markdown": {
+      "source": "icons/upstream/svg/markdown-light.svg",
+      "source_sha256": "bfe84e2ff52f22bf668cc614468f4798ec75786dd4e5674a464d63054beca67d",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/markdown.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/markdown.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_markdown.png": "7d020249300e49e5142dd0e8cc4a751d3376cde4624d8b93f40c3b7dc7dc57c6",
+        "icons/file_type_light_markdown@2x.png": "74dd3e1c39940077249778c5108f989e231bf0fb4dc3d7783fa75c877fb8df84",
+        "icons/file_type_light_markdown@3x.png": "b5d8a0d4f0930b877d191964240d76a375a28c4c454d3e5f9d37b76a692c858b"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_npm": {
+      "source": "icons/upstream/svg/npm-dark.svg",
+      "source_sha256": "ee723cbfbd8afe5d606c97fcc0f118a51fdae71ed7e4caf9a938714ee68cdafd",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.backend.jar",
+        "entry": "icons/expui/fileTypes/npm_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_npm.png": "65e4fe33829c280de5ab8924d8ce1434f12312c0ad58e314d0bcb751fbbb8fb9",
+        "icons/file_type_dark_npm@2x.png": "14e42ecb2e1451641126ac83925ba6406619cba468e2da6a7fcad2bd6b19c4ec",
+        "icons/file_type_dark_npm@3x.png": "41f439bb3bc5b58b915ffabcafaeab04f4182863a3910b9c0cea2d0cf1303b09"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_npm": {
+      "source": "icons/upstream/svg/npm-light.svg",
+      "source_sha256": "ee723cbfbd8afe5d606c97fcc0f118a51fdae71ed7e4caf9a938714ee68cdafd",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.backend.jar",
+        "entry": "icons/expui/fileTypes/npm.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_npm.png": "19d0ac9cb68cf4c8b936117a1d2f247656c70e33e8057db7879f031ac05808ca",
+        "icons/file_type_light_npm@2x.png": "5f669c968e1f08838ed25768f93621ca34a638ee629246d21f1835c31c49d67d",
+        "icons/file_type_light_npm@3x.png": "f661725a60ab518866537bfbff6b7e0490deba14c238adf5321f6c99c95e137e"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_patch": {
+      "source": "icons/upstream/svg/patch-dark.svg",
+      "source_sha256": "beef0cad465c7c2ddb1b6126440384088ed7415e31d860ac0bbbc86d5d71f91a",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/patch_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/patch_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_patch.png": "a409428f817e64e33d6b3bede86673040b1fc22985728e66ff4ff683728a6dab",
+        "icons/file_type_dark_patch@2x.png": "5f6a3d1ec864c5fb568ff03a2668cbda5da5ccaadd04ca1cc74df3e92ad22981",
+        "icons/file_type_dark_patch@3x.png": "9565df875165e5c9e2acda73ee36deaf993cbbaf507ab81c08bf435b3a1fb535"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_patch": {
+      "source": "icons/upstream/svg/patch-light.svg",
+      "source_sha256": "5a13b4226356215881685426bbe5c93f407b06baf6c4a877808c3e4047e5d599",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/patch.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/patch.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_patch.png": "d8bffc97b5f75e4cf39e53da6fe8d8c5b51a0c7572db687ef2cd15992c4a63a7",
+        "icons/file_type_light_patch@2x.png": "0f4fde84ff99d323bb39380c22dacabf8ec50a43b2dc9ed1b4819d6c74bb534c",
+        "icons/file_type_light_patch@3x.png": "aa09a1823f362f44c65a71a178b21c7342ce94e45f3fb1af763275acd72f6c3c"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_perl": {
+      "source": "icons/upstream/svg/perl-dark.svg",
+      "source_sha256": "b104ea087b1dbc4c2a37b75f3ebf983756e3d5d14f8a33cd209ce82f175505c5",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/perl_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/perl_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_perl.png": "6fbc767118ac4c4b43651a090d5891493091c7c1f6c6c767753f476fc3bb27ea",
+        "icons/file_type_dark_perl@2x.png": "ddeec16921daf16c945563e7059a13472a2b9d4cb388f90b0613d6df67979cff",
+        "icons/file_type_dark_perl@3x.png": "c6e19fba78d4d77c59837949dd197a6412c41f1980444d43bac852ceba21b0d2"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_perl": {
+      "source": "icons/upstream/svg/perl-light.svg",
+      "source_sha256": "ad36370a025fb176f8da49f8ae311df0623992227c8616f84b09c6a7a39acf0e",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/perl.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/perl.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_perl.png": "7613dfe0e3671f3e6f24ea4dd7151d51450570deed4efd9f0e4f6577558d0bc7",
+        "icons/file_type_light_perl@2x.png": "cee8bc6dabcb21335beac73c9738e8563c607745c26b7f0b9c80e45dd3cd43b7",
+        "icons/file_type_light_perl@3x.png": "17384c1c1eb0df1fb12d3f1a896c463db7bc60affdb14f89ce6bf0bd2ebce736"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_php": {
+      "source": "icons/upstream/svg/php-dark.svg",
+      "source_sha256": "2ea27e0e07315aa1af1d7690f159cf7170734acfaad88bd9821ffcd37fb406d6",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/language/php_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/expui/language/php_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_dark_php.png": "ff315945509926b8e6cbd7e676331800226b93ed7d618a5512d83ac03fb49cdb",
+        "icons/file_type_dark_php@2x.png": "57eb72a02913a2639c7a3dfb0364964685b46977455eb1754d51323c51458637",
+        "icons/file_type_dark_php@3x.png": "a3e7ab5cb2c892914ac5c9b446949a01247189f2597647241393b6814f525f00"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/expui/language/php_dark.svg",
+        "source_sha256": "2ea27e0e07315aa1af1d7690f159cf7170734acfaad88bd9821ffcd37fb406d6",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_light_php": {
+      "source": "icons/upstream/svg/php-light.svg",
+      "source_sha256": "fa6152d26aa0f5444a333a194f2790657c7aa3487c0a3c913aff6aca9b8a376d",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/php.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/php.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_light_php.png": "4a48fd1978588eac8a53b278b54cc5b5c8f366e2b5edf8f369436336772fe700",
+        "icons/file_type_light_php@2x.png": "a8830a905033042fdce6c71137e4bb473468ce1265a025eb5c75d1b26a93a5ea",
+        "icons/file_type_light_php@3x.png": "374be5ae855b2244107dfed97b596ea4e81fb3f56e176a450fddc5aa2a983a24"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/php.svg",
+        "source_sha256": "fa6152d26aa0f5444a333a194f2790657c7aa3487c0a3c913aff6aca9b8a376d",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_dark_prettier": {
+      "source": "icons/upstream/svg/prettier-dark.svg",
+      "source_sha256": "1ecac02dd6112cea23fb414ceb0f458ddd003a068346af07d2a47a997b2455d6",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.backend.jar",
+        "entry": "icons/expui/fileTypes/prettier_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2025 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_prettier.png": "814c2c71035f43dc88b4943cf1673c3b8bef9090d3e83050e6d0c3596fe70d73",
+        "icons/file_type_dark_prettier@2x.png": "cd181a559e0917e45ea6841422e1f0337d71d074205926f3d9d5370218d5ded4",
+        "icons/file_type_dark_prettier@3x.png": "1480a874d10c8693c339f6c79ab902afe0f5ae29988c9b5128b47c159f0e90b3"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_prettier": {
+      "source": "icons/upstream/svg/prettier-light.svg",
+      "source_sha256": "1c48d19f49c42548792cbc8421198b512ce70a67a5dd46da91969971ba525bd3",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.backend.jar",
+        "entry": "icons/expui/fileTypes/prettier.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2025 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_prettier.png": "0081a91e273e715db118813de582a409285dd27d287b171ed527624e309a1a8d",
+        "icons/file_type_light_prettier@2x.png": "32b322d798094db2c3cd4622565e1fe4e52f30e5c858c0990418c623a8bdfc9c",
+        "icons/file_type_light_prettier@3x.png": "dcbf46f160db5f287a802c392032280c15948bc09c28a147ef880d851944411c"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_python": {
+      "source": "icons/upstream/svg/python-dark.svg",
+      "source_sha256": "47a2d86326165488ddd995720d07fc8b61b59ea23cc23337739a5f94aebaf67f",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/python_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/language/python_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_python.png": "d8285da144f7aca8b3cf69de8acd7da569fb22ab46defda4de41f03672987361",
+        "icons/file_type_dark_python@2x.png": "faa8c9f160ceed0d9bdde2fa730d94a0ee380e124b171663f4a49768b5251b8d",
+        "icons/file_type_dark_python@3x.png": "9aaf09d001d21a4e5a2320f5aadd6bfd76fc5b72aaef9c8a0ca1940082d921f0"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_python": {
+      "source": "icons/upstream/svg/python-light.svg",
+      "source_sha256": "05b9605efcf84c68d43086041416d55a021269628f348917fa2119a6b3187ebe",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/python.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/language/python.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_python.png": "8da019428cf35249bf5eba1a625d6616087e47c1429c7899766fc4ccbfe9459c",
+        "icons/file_type_light_python@2x.png": "b8906e47d0fb166435b2d961145dede4c7a64c66eb8ecef3ba45b185c172f88b",
+        "icons/file_type_light_python@3x.png": "73371e97b4f6e9626153552e47df8bf4302c32ae7bcf63f8f2eb1f288dd002ca"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_ruby": {
+      "source": "icons/upstream/svg/ruby-dark.svg",
+      "source_sha256": "59a65a6a218360e66e015bfcc90ba48ce93dc03c9e63e9dceaea541d0252c2a2",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/ruby_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/ruby_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_dark_ruby.png": "52afe183fb3285335e250d3d293cdff176de0023e38a43ab5be560b25e5e276f",
+        "icons/file_type_dark_ruby@2x.png": "16bc1eb6b0f7cdf1020d717070037fa2b24a6605a6e1d5c4b8b15e9a7e2abedf",
+        "icons/file_type_dark_ruby@3x.png": "9061ea5ac5be18a497402ac9f98cdffc16d457e89aa170605772f583eb5ef573"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/ruby_dark.svg",
+        "source_sha256": "59a65a6a218360e66e015bfcc90ba48ce93dc03c9e63e9dceaea541d0252c2a2",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_light_ruby": {
+      "source": "icons/upstream/svg/ruby-light.svg",
+      "source_sha256": "98b2017979fe07b48d5894e0f17e0ecfdf323b1589be5f8d8f6156f5528b00fe",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/ruby.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/ruby.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_light_ruby.png": "c7b86f1c10d19474ec1859e78ab802785b318f26f5e4938e2bbdad4c7e71cda7",
+        "icons/file_type_light_ruby@2x.png": "f8a78ca0e11c7d4b1d2de28cd3541507cbd30a9b8e1dab96bce7ff4e97158ed7",
+        "icons/file_type_light_ruby@3x.png": "050c3f9d53ea02cdd1649f8e6e360bd9e47f51d67e21e2f1720e524a41d8c446"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/ruby.svg",
+        "source_sha256": "98b2017979fe07b48d5894e0f17e0ecfdf323b1589be5f8d8f6156f5528b00fe",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_dark_rust": {
+      "source": "icons/upstream/svg/rust-dark.svg",
+      "source_sha256": "9dd4575089ae53672bdf509de741238c518e7245095812281286d6414db29b9d",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/rust_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/rust_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_dark_rust.png": "8775cecf584f5c2136464df244b2409cc7b90dbd6f69b9ed8f2db56961e71346",
+        "icons/file_type_dark_rust@2x.png": "a1a55830e18e19869fb3b2924ff1530d42bd54f3705ce875453af4ec6f01dfc4",
+        "icons/file_type_dark_rust@3x.png": "e2bc61bc28274e9a2087b742d4263977db5a53f4e3a0fe2b38ad807b36042d90"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/rust_dark.svg",
+        "source_sha256": "9dd4575089ae53672bdf509de741238c518e7245095812281286d6414db29b9d",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_light_rust": {
+      "source": "icons/upstream/svg/rust-light.svg",
+      "source_sha256": "c1aa4dd0d05598c3f19a7b7651c6b7a0c89298bd3c150723764df88f9e54bec0",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/rust.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/rust.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_light_rust.png": "f0e9b97697e34f1c7980cb1925f17a705164efb8b74c655dbac5f7b10b9a7d12",
+        "icons/file_type_light_rust@2x.png": "53669259e35a9f61bd033547447c1227b45ca06ab1e7eba12ce2f7c59556536a",
+        "icons/file_type_light_rust@3x.png": "4d9a6c571f63411644d7bfa7f21302128ca9af313452f342f879fdddfc7822d1"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/rust.svg",
+        "source_sha256": "c1aa4dd0d05598c3f19a7b7651c6b7a0c89298bd3c150723764df88f9e54bec0",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_dark_scala": {
+      "source": "icons/upstream/svg/scala-dark.svg",
+      "source_sha256": "ccbd682c1bf26fa358b06a768f5259ab929e2f16f5a9c15b4383930d33008a39",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/scala_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/scala_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_dark_scala.png": "4459e7b90829168855ea99f5f8fb7eee8321d480f8d51538d4f50761e6eba8f3",
+        "icons/file_type_dark_scala@2x.png": "c6b838cd4911d7e0ec3295719e58d2e1f7300701ba23893a13af4d1dd21de0c2",
+        "icons/file_type_dark_scala@3x.png": "eb824befd63bd4371dfe027e38d3586423e3410d5005d5820ff5712817a598e2"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/scala_dark.svg",
+        "source_sha256": "ccbd682c1bf26fa358b06a768f5259ab929e2f16f5a9c15b4383930d33008a39",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_light_scala": {
+      "source": "icons/upstream/svg/scala-light.svg",
+      "source_sha256": "2d0abeddbe752ff9c5820ee495afec9f35dfe09a998bca2b0d7602ae3f460f9e",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "language/scala.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/scala.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright (C) JetBrains s.r.o.",
+      "review_note": "Source SVG matches this pinned Apache-2.0-licensed upstream revision byte-for-byte; retain its root license and NOTICE.",
+      "outputs": {
+        "icons/file_type_light_scala.png": "fcc24e3bce8ace71e9b18cd82e4ab1fd2ca844f9bbd69d584003ecd9fcf19597",
+        "icons/file_type_light_scala@2x.png": "47abe464d396da2be404583bc0917afbe4ce9d202d5e483c9b8ec2b831e493f2",
+        "icons/file_type_light_scala@3x.png": "44866db99d339e27a81569921a25e85f779c180371aec08f76d390f602c6b109"
+      },
+      "license_evidence": {
+        "type": "upstream_repository",
+        "source_url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/platform/icons/src/language/scala.svg",
+        "source_sha256": "2d0abeddbe752ff9c5820ee495afec9f35dfe09a998bca2b0d7602ae3f460f9e",
+        "license": {
+          "file": "icons/upstream/licenses/intellij-community-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/LICENSE.txt"
+        },
+        "notice": {
+          "file": "icons/upstream/licenses/intellij-community-NOTICE.txt",
+          "sha256": "83903abdebe3b3dda1a178fb3f03ac71ef31c4503b79226b66ef27f1aa9d3993",
+          "url": "https://github.com/JetBrains/intellij-community/blob/73d2a5cb3bf446179262dc40e47cd20f307a410b/NOTICE.txt"
+        }
+      }
+    },
+    "file_type_dark_shell": {
+      "source": "icons/upstream/svg/shell-dark.svg",
+      "source_sha256": "09c58f2d69bedc5f3c518f9e42998f3bbb3ec5b7fd33b06cd24d1734c74d6cc7",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/shell_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/shell_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_shell.png": "903986b171eb054a0fd1c38264dfde4d150b0c2377787517e16ac40653b7346d",
+        "icons/file_type_dark_shell@2x.png": "c332de6af2dcbec0c927d8234db1475f363276e8b7cbf6ea3b36256a55f451a2",
+        "icons/file_type_dark_shell@3x.png": "6d2dc2994db45d0774b77cf05909ba7ac50e84c95407de35270db237262df5c2"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_shell": {
+      "source": "icons/upstream/svg/shell-light.svg",
+      "source_sha256": "4a8c336a8d0737df6ebee0b1006d03909f0ad5770a98d5ad28e746d3f95ae733",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/shell.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/shell.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_shell.png": "2096c90138013900c1cbcf56f8091fad760d2966d77953e75b1631829edd052f",
+        "icons/file_type_light_shell@2x.png": "ae6c04860ef3864dda015b1404d267598fc7664913abc5246be9de3998527576",
+        "icons/file_type_light_shell@3x.png": "5450c972aa8ab3bb3dbf7f63b7f584c8d684a6ee8f5cb7bb7520b9a2ea234e0e"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_sql": {
+      "source": "icons/upstream/svg/sql-dark.svg",
+      "source_sha256": "be2a690df00ada9e6bc43f841769f378c03e523a845617b21a6ff7f4323096c6",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/sql_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/sql_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_sql.png": "42103037a24a04118a1e77f22b095311572351c600af239a6c23daf91b703d4a",
+        "icons/file_type_dark_sql@2x.png": "2952c0ef67c86823b828851c21596d8dbcad2102352e9a5a96dd70292e77fb11",
+        "icons/file_type_dark_sql@3x.png": "0c6367e9722e50cb8e3d1ca8648c9b370543247fe5edfd1aa97d3ff6fa727456"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_sql": {
+      "source": "icons/upstream/svg/sql-light.svg",
+      "source_sha256": "56a74dc252d318ad5ab8e0859cffb0f2ff1ada2736dbff3abc18116ea900320f",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/sql.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/sql.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_sql.png": "d365e990e635bebc044206924dbfb7eeb5af3e6eb6687b2e2b7953e80c71c129",
+        "icons/file_type_light_sql@2x.png": "4a16466bc22e59a4494fff940742490bd245965cf77fed29457bc8aecb510810",
+        "icons/file_type_light_sql@3x.png": "38da0459eae8d65da82af6430e3c5e6dbfe1b9e4294465c8d48a39a38f25314b"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_swiftlang": {
+      "source": "icons/upstream/svg/swiftlang-dark.svg",
+      "source_sha256": "3c1d700f37c43338df7f595d79476017f70a46923d6263b183b81a23193cb1dd",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/swiftLang_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/swiftLang_dark.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_dark_swiftlang.png": "c5d9cdd31052f30110c6f4290f37216e3d29f8c2216e6d77d20e6f2a19899d3b",
+        "icons/file_type_dark_swiftlang@2x.png": "22bae4ef2c70b43c7e3a720bed34e547ba81ab42ff37f8c0b6c205f4fefae6bf",
+        "icons/file_type_dark_swiftlang@3x.png": "aa9e1b787a4d021ecddbfac36580cecdf0259a3e95939cb4b5a8b91e6caf0061"
+      }
+    },
+    "file_type_light_swiftlang": {
+      "source": "icons/upstream/svg/swiftlang-light.svg",
+      "source_sha256": "3232d3a0090f9a77bead9e0a4b64c43dec07ef5f9bf3b2abcd966f38d981e971",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/swiftLang.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/swiftLang.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_light_swiftlang.png": "4beed680258c81e88b8cd0a3b6dd58f5b1f43fc3c533960f7cfdc07b3e4ec775",
+        "icons/file_type_light_swiftlang@2x.png": "fe0c4ab77ad8445b59e3d23adff9a59b9d4b97c13b3a256f052cc1500b0a744d",
+        "icons/file_type_light_swiftlang@3x.png": "a8b72837817478954f69a268a4c94675e723f76de947e871e9bac68c9ec10229"
+      }
+    },
+    "file_type_dark_terraform": {
+      "source": "icons/upstream/svg/terraform-dark.svg",
+      "source_sha256": "45a40c95d5fd99f811ea8bd260cfe852800280bfb49e41d98128b3ac24fdeffd",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/terraform_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/terraform_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2026 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_terraform.png": "b20ba45d2cda2425844b1a5947b2d35df431b1e5dd8771d1f6a88d6f0c093cb0",
+        "icons/file_type_dark_terraform@2x.png": "76a66b701820fe55e101b54b7e44f56084b8057ea7074349be498555e454640f",
+        "icons/file_type_dark_terraform@3x.png": "6f04016a2be88a98f96ef6855b448d554d581834ee7a17f236517be3c756c727"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_terraform": {
+      "source": "icons/upstream/svg/terraform-light.svg",
+      "source_sha256": "65b88155129e3e45629e3011c5476b95085e95296f05485387626b0e2716a472",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/terraform.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/terraform.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2026 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_terraform.png": "a62796f81751497920a9e72944396dce20f8dff8157939b961f4504c8b6e2661",
+        "icons/file_type_light_terraform@2x.png": "7a9596d5d5253437cf2b03e02b6263dc4d93d06844f20c114daffdc72cf3ffdf",
+        "icons/file_type_light_terraform@3x.png": "b727cd8d97379c4469f625352f04289b722ee6935a850d23b3579bfb88a7271a"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_text": {
+      "source": "icons/upstream/svg/text-dark.svg",
+      "source_sha256": "3391cc35837a4420fa9517f2297d8f6b07428db63f57f07dd5c2c29ef00cb489",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/text_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_text.png": "f73a1eebffe31dabc986ca89781da0cf9a07f9b2de56729ba8af83590013a56d",
+        "icons/file_type_dark_text@2x.png": "a07473d5039d2d6e2dbbd8a4383de5d22e692c03b7823d009fa94522dba0b90d",
+        "icons/file_type_dark_text@3x.png": "c14001428a99086759f58285e1b3f29e72af030b38addaae41b07e0f265775bf"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_text": {
+      "source": "icons/upstream/svg/text-light.svg",
+      "source_sha256": "d71666166da544ad42b13bb5af976eb6f0afb60cbaa636676d238c98383ee296",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/text.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/text.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_text.png": "168ec6240a49dc711cfdb44d3a52cbbaa3fe691c40553fd3ea9907a5d724337b",
+        "icons/file_type_light_text@2x.png": "cacb8f1059d638182bad9b48a9e754e404238a33432f7889e77c660d97039eaa",
+        "icons/file_type_light_text@3x.png": "841a91355e9c8d67e1edbc38530c1557c30d40636f5e4afd111f9bc77e7f4874"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_toml": {
+      "source": "icons/upstream/svg/toml-dark.svg",
+      "source_sha256": "4177347806efb6f5e31307e8427e8c9274bedfe8c8476b9ebb77c087b88027cc",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/toml_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/toml_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_toml.png": "ccdb048c0b28be649b0b29eaa66549820e0368834389e715b64328f948c6da41",
+        "icons/file_type_dark_toml@2x.png": "776f85c16a91d398628211682b794ce659bcd56d9865100dd914d034f5113070",
+        "icons/file_type_dark_toml@3x.png": "436724e08e1b1c24c9904096825778c9988616ad9d6057310cc823ceb131b9c8"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_toml": {
+      "source": "icons/upstream/svg/toml-light.svg",
+      "source_sha256": "d8dbdbada06151868dbcf791ea7a041c4ad438a499ba44bb672a76fc8abf6048",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/toml.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_toml.png": "43572487fa2f056cc8705dde1e895fb7429273d6ae891a860f00eb087a892598",
+        "icons/file_type_light_toml@2x.png": "16275d8d57369d889181166d12461f7637bc72dd06bbc5e53a28aa41d0d294d6",
+        "icons/file_type_light_toml@3x.png": "c774ef7819ce0635d52ae8e5f97bf5b55b53d9b550edb8404edfe62086da7361"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_tsx": {
+      "source": "icons/upstream/svg/tsx-dark.svg",
+      "source_sha256": "326927e0962f534e6d3f8b65fc6079beec4cd674040392999478a34625f4288e",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.parser.jar",
+        "entry": "icons/expui/fileTypes/tsx_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_tsx.png": "36d4a192773868a04d7cb6413b887bad4ed602448262d52ed0efbc0cb1bc4674",
+        "icons/file_type_dark_tsx@2x.png": "2b7e10af753e477489c0b088c42cde3832f29bc45ec39ad677faec86680e2c13",
+        "icons/file_type_dark_tsx@3x.png": "c67b6291f438b0f9832d17133c92aa7e30f1198061d0ab43e8518c8ae3cd1123"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_tsx": {
+      "source": "icons/upstream/svg/tsx-light.svg",
+      "source_sha256": "8d41dd56fe202d0da000b514bc68386257ecc9cb9fcfd7aca89bf495e92d0a09",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.parser.jar",
+        "entry": "icons/expui/fileTypes/tsx.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_tsx.png": "092fa41e4956e3d57f29988272f86131c4b7a24619c1f1236a170fa7d963fbc2",
+        "icons/file_type_light_tsx@2x.png": "3b516fa557b28ed5c795ab8df387f576a4cf8c0a0db0b5a4a080fb18e777e291",
+        "icons/file_type_light_tsx@3x.png": "1c88a3d992909039537fe737e83f580baebae15ee77769aa879e8a4e52df9a7b"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_typescript": {
+      "source": "icons/upstream/svg/typescript-dark.svg",
+      "source_sha256": "18f56081e42916c7a3109062359ff41aeff6372d10bdb8942de6dce5e19f624e",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.parser.jar",
+        "entry": "icons/expui/fileTypes/typeScript_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_typescript.png": "854ceb3c2a746740e88059908f9f2b606c6110699a7bdda6e36fe495cfb20317",
+        "icons/file_type_dark_typescript@2x.png": "e352ebee4861d7847376991487bcc881491e09080d11d41616336954d3f80c9d",
+        "icons/file_type_dark_typescript@3x.png": "34a79f9878dd34ab657623dd66822664aafb342501946c7b4635f6a09093e3ad"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_typescript": {
+      "source": "icons/upstream/svg/typescript-light.svg",
+      "source_sha256": "6fc794f096ad1b506d42821049d200879bd0a0795b2110f99b726b91f14e8d5a",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/plugins/javascript-plugin/lib/modules/intellij.javascript.parser.jar",
+        "entry": "icons/expui/fileTypes/typeScript.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_typescript.png": "68f4eca91bfcaf664d53449135b754e4464d54676a1de52f15749d51e9132f40",
+        "icons/file_type_light_typescript@2x.png": "ee7002636c7f2d7ba9d09df2554130f6595e14bafbf219af51b7aa449839a303",
+        "icons/file_type_light_typescript@3x.png": "d753c16d992951f5be0e65d0d2bfbf946df9dc6f703b51c8c3c79527104a6f1d"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_vue": {
+      "source": "icons/upstream/svg/vue-dark.svg",
+      "source_sha256": "5f0d4bb91ccaa5252a6a021cd731974fc2e9a0926354b17a7417b0ede373ece3",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/vue.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_dark_vue.png": "0866b824a44478c360b235a6e0ab6b432c33455fbd278fce966ddff095f6ae6d",
+        "icons/file_type_dark_vue@2x.png": "d13325cc75e2de1a99576aa8715ec9f47e54b2605d5119557f5f5baf75feba7d",
+        "icons/file_type_dark_vue@3x.png": "8e733d81336904f20213acc6d44f7effc7ff84509ef7834650bf4720cf8e9586"
+      }
+    },
+    "file_type_light_vue": {
+      "source": "icons/upstream/svg/vue-light.svg",
+      "source_sha256": "5f0d4bb91ccaa5252a6a021cd731974fc2e9a0926354b17a7417b0ede373ece3",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/vue.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/vue.svg"
+      },
+      "license": null,
+      "copyright_notice": null,
+      "review_note": "No explicit license declaration in this SVG. A public source location alone does not establish permission; confirm the applicable license or replace this asset before publication.",
+      "outputs": {
+        "icons/file_type_light_vue.png": "f84c4673e7a85f7792f3257ba5dbb3a7d703995de180608c4bd20edcfb55b1cb",
+        "icons/file_type_light_vue@2x.png": "68c0033488fb9879b3239542d37727735b1e2e7feaf0aca0554f55321234ee40",
+        "icons/file_type_light_vue@3x.png": "3d70728d25a907f7cb44a2dcab93bb93d3d5be1d9238a73255373f408a2d6cf0"
+      }
+    },
+    "file_type_dark_xml": {
+      "source": "icons/upstream/svg/xml-dark.svg",
+      "source_sha256": "fb39e44dd70fdda7a94c6074e5d3d58d30faef92bc6f91c1244b0320aee2486b",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/xml_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_xml.png": "1957d39ebd06cd731da2c8a2a5bf28b058f094217b7af054e06153852dadcc7a",
+        "icons/file_type_dark_xml@2x.png": "bc836c7e79f99b01d01c1d7b63bacd22eb9e63f6614c81c8f07eebe9521b124e",
+        "icons/file_type_dark_xml@3x.png": "72135ec965640af032f9e857669f69d5d7afa51cd5dcf3b0e40a96d6f188921c"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_xml": {
+      "source": "icons/upstream/svg/xml-light.svg",
+      "source_sha256": "ed18f7315e4dea5eb9298a66732968805c0ff9cda8f3ef0ca339f864e536d9ea",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/xml.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_xml.png": "2514f95d50cf0826bc22624d2be118b9f6055926c77faf8c224afa21bfc6c01a",
+        "icons/file_type_light_xml@2x.png": "ba67965e4d581953d0f3c1c35f82d4cd4d27ed9d8019ebdb958f49867cc10284",
+        "icons/file_type_light_xml@3x.png": "0c190f119b482167481be58016d30f89e77202cf10bcc18881ec61bdf9975163"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_dark_yaml": {
+      "source": "icons/upstream/svg/yaml-dark.svg",
+      "source_sha256": "09e0df7109e8decf4a1eaba4887da88f5469a0a095fae9143f12bafe6418473f",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/yaml_dark.svg",
+        "verified_public_source": "https://github.com/JetBrains/intellij-community/blob/b131167ab6e123d544b9bc1e53688eb5a9e27c62/platform/icons/src/expui/fileTypes/yaml_dark.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2025 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_dark_yaml.png": "354ae456c54f11d1e41699a99f8b57eb367aa66727cba776606ea21984d0880d",
+        "icons/file_type_dark_yaml@2x.png": "a36c5189c4a34d51e97b3cc3a37f70df8f4fddc50b7c50a39fec51b16b3cc288",
+        "icons/file_type_dark_yaml@3x.png": "e3854bd099ea88a497c89a50d1ec4452fae1e530559ba057bf287e3694f442e3"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    },
+    "file_type_light_yaml": {
+      "source": "icons/upstream/svg/yaml-light.svg",
+      "source_sha256": "f715bd90d921963fa9852ceff03d313e15cf1ef25a9a4ed609a6698a423f60ea",
+      "origin": {
+        "product": "IntelliJ IDEA",
+        "version": "2026.3",
+        "build": "263.7307.200",
+        "archive": "Contents/lib/intellij.platform.icons.jar",
+        "entry": "expui/fileTypes/yaml.svg"
+      },
+      "license": "Apache-2.0",
+      "copyright_notice": "Copyright 2000-2025 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license.",
+      "review_note": "Explicit Apache-2.0 declaration preserved in the source SVG.",
+      "outputs": {
+        "icons/file_type_light_yaml.png": "f91f7585421f640e28a7859809df63347c91e47f449e8738587e0c96c9c080ea",
+        "icons/file_type_light_yaml@2x.png": "2921686163b409a38a40e1c283110f7c1f3f798e8295fd28a3dc87f31e6850bf",
+        "icons/file_type_light_yaml@3x.png": "eab299facefcd29968e921440aba40f23e5fdb8fb5b6357a8bf81d42981e83dd"
+      },
+      "license_evidence": {
+        "type": "source_header"
+      }
+    }
+  },
+  "publication_review": {
+    "branding_clearance": null
+  }
+}
