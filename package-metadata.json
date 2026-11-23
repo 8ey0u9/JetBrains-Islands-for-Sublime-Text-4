@@ -1,0 +1,14 @@
+{
+    "name": "JetBrains Islands",
+    "details": "https://github.com/beyoug/jetbrains-islands-sublime",
+    "labels": ["theme", "color scheme", "icons"],
+    "releases": [
+        {
+            "version": "0.9.0",
+            "date": "2026-11-23",
+            "sublime_text": ">=4143",
+            "platforms": ["*"],
+            "url": "https://github.com/beyoug/jetbrains-islands-sublime/releases/tag/v0.9.0"
+        }
+    ]
+}
